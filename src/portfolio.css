@@ -49,14 +49,12 @@ footer {
 
 .contact-links a {
   margin: 35px;
-  color: rgb(19, 19, 194);
+  color: #007cb9;
   font-size: 18px;
 }
 
 .contact-links a:hover {
-  margin: 35px;
   color: rgb(94, 94, 247);
-  font-size: 18px;
 }
 
 .footer-my-name {
