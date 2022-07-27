@@ -77,6 +77,13 @@ footer {
   padding: 100px 20px;
 }
 
+.hero-not-homepage {
+  background: #d7ffdf;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
 .my-occupation {
   font-size: 20px;
   opacity: 70%;
