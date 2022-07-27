@@ -40,6 +40,13 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 50px auto;
+}
+
 .contact-links a {
   margin: 35px;
   color: rgb(19, 19, 194);
@@ -50,6 +57,15 @@ p {
   margin: 35px;
   color: rgb(94, 94, 247);
   font-size: 18px;
+}
+
+.footer-my-name {
+  color: #00aaa0;
+}
+
+.github-link,
+.netlify-link {
+  color: #007cb9;
 }
 
 @media (max-width: 600px) {
