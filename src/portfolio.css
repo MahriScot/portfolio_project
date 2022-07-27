@@ -22,7 +22,6 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  text-align: center;
   color: #212121;
 }
 
@@ -33,17 +32,24 @@ footer {
 
 h1 {
   margin-top: 80px;
-  font-size: 62px;
+  font-size: 68px;
   font-weight: 800;
+  text-align: center;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 62px;
   font-weight: 600;
+  text-align: center;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -54,8 +60,9 @@ img {
 }
 
 p {
-  margin: 20px;
+  margin: 15px 20px;
   font-size: 15px;
+  line-height: 30px;
 }
 
 footer {
@@ -70,16 +77,47 @@ footer {
   padding: 100px 20px;
 }
 
+.my-occupation {
+  font-size: 20px;
+  opacity: 70%;
+}
+
 .btn-branding {
   margin: 5px;
   padding: 10px 30px;
   background: var(--branding-color);
-  border: solid 1px #60a9a6;
+  border: 1px solid #60a9a6;
+  border-radius: 4px;
 }
 
 .btn-branding:hover {
   background: var(--branding-color);
-  border: solid 2px #60a9a6;
+  border: 2px solid #60a9a6;
+  border-radius: 4px;
+}
+
+.btn-branding-outline {
+  margin: 5px 10px;
+  padding: 5px 25px;
+  background: var(--branding-color);
+  border: 1px solid #60a9a6;
+  border-radius: 4px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  border: 2px solid #60a9a6;
+  border-radius: 4px;
+}
+
+.homepage-project-pics {
+  display: block;
+  margin: 30px auto;
+  padding: 4px;
+}
+
+.project-description {
+  padding: 80px 0px;
 }
 
 .contact-links a {
@@ -101,8 +139,28 @@ footer {
   color: #007cb9;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   h1 {
-    font-size: 50px;
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .hero {
+    padding: 50px 10px;
+  }
+  .my-occupation {
+    font-size: 15px;
+  }
+  .project-description {
+    margin-top: 30px;
+    padding: 0;
+    text-align: center;
   }
 }
