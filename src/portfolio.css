@@ -18,7 +18,11 @@ body {
 nav {
   padding: 4px 0;
   background: #f6fbf4;
-  position: sticky;
+}
+
+nav ul {
+  padding: 0 10px;
+  margin: 5px 0;
 }
 
 nav li {
@@ -90,6 +94,13 @@ p {
   margin: 15px 20px;
   font-size: 15px;
   line-height: 30px;
+}
+
+p.image-captions {
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  margin: 0 auto 10px;
 }
 
 footer {
@@ -202,13 +213,9 @@ footer {
   padding: 0px 50px;
 }
 
-.about-me-all-photos {
-  text-align: center;
-}
-
-.about-me-photo {
-  display: inline;
-  margin: 10px 20px;
+.about-me-photos {
+  display: block;
+  margin: 10px auto;
   max-width: 300px;
 }
 
@@ -262,7 +269,13 @@ footer {
   color: #007cb9;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+  .about-me-photos {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 850px) {
   h1 {
     font-size: 42px;
   }
@@ -279,7 +292,7 @@ footer {
     padding: 0;
   }
   nav li {
-    margin-left: 5px;
+    margin-left: 8px;
     line-height: 50px;
     font-size: 12px;
   }
@@ -303,6 +316,22 @@ footer {
     margin-top: 30px;
     padding: 0;
     text-align: center;
+  }
+  .about-me-photos {
+    display: block;
+    margin: 0 auto;
+    max-width: 230px;
+  }
+  p.image-captions {
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    margin: 5px auto 20px;
+  }
+  .portfolio-section-titles {
+    background: #dbf6e9;
+    padding: 10px;
+    margin: 0 auto;
   }
   .contact-links a {
     font-size: 15px;
