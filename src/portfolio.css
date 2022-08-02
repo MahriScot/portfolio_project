@@ -133,10 +133,25 @@ footer {
   border-radius: 4px;
 }
 
+.btn-projects {
+  margin: 5px;
+  padding: 10px 15px;
+  background: #dbf6e9;
+  border: 1px solid #60a9a6;
+  border-radius: 4px;
+}
+
+.btn-projects:hover {
+  background: var(--branding-color);
+  border: 1px solid #60a9a6;
+}
+
 .homepage-project-pics {
   display: block;
   margin: 30px auto;
   padding: 4px;
+  max-width: 400px;
+  height: 250px;
 }
 
 .project-description {
@@ -149,6 +164,25 @@ footer {
 
 .about-paragraphs {
   padding: 0px 50px;
+}
+
+.portfolio-section-titles {
+  background: #dbf6e9;
+  padding: 15px;
+}
+
+.portfolio-images {
+  margin: 0 auto;
+  padding: 5px;
+  height: 250px;
+}
+
+.portfolio-paragraphs {
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 80%;
 }
 
 .contact-links a {
@@ -187,7 +221,7 @@ footer {
     padding: 40px 10px;
   }
   .hero-not-homepage {
-    padding: 0;
+    padding: 10px;
     text-align: center;
   }
   .hero-not-homepage .my-photo {
