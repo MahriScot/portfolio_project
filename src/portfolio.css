@@ -201,6 +201,11 @@ footer {
   padding: 10px;
 }
 
+.contact-me-footer {
+  background: #d7ffdf;
+  padding: 15px;
+}
+
 .footer-my-name {
   color: #00aaa0;
 }
