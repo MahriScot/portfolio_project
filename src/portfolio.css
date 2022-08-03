@@ -342,6 +342,11 @@ p.image-captions {
   .hero-subheading {
     font-size: 15px;
   }
+
+  .btn-projects {
+    margin: 5px 10px;
+    padding: 3px 10px;
+  }
   .project-description {
     margin-top: 30px;
     padding: 0;
