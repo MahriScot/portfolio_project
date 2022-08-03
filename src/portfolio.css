@@ -19,7 +19,7 @@ body {
 }
 
 nav {
-  padding: 4px 0;
+  padding: 0;
   background: var(--background-color);
 }
 
@@ -106,6 +106,10 @@ p.image-captions {
   margin: 0 auto 10px;
 }
 
+.nav-bar {
+  padding: 0 0 0 80px;
+}
+
 .logo {
   max-height: 80px;
   margin: 10px 0;
@@ -115,12 +119,14 @@ p.image-captions {
 .hero {
   background: var(--hero-background);
   text-align: center;
+  margin-top: 100px;
   padding: 40px 20px 40px;
 }
 
 .hero-not-homepage {
   background: var(--hero-background);
   text-align: center;
+  margin-top: 100px;
   padding: 20px 20px;
 }
 
@@ -318,16 +324,18 @@ p.image-captions {
     line-height: 50px;
     font-size: 12px;
   }
+  .nav-bar {
+    padding: 0 0 0 10px;
+  }
   .logo {
     max-height: 40px;
   }
-  .hero {
-    padding: 20px 10px;
-  }
+  .hero,
   .hero-not-homepage {
-    padding: 10px;
-    text-align: center;
+    margin-top: 48px;
+    padding: 10px 10px;
   }
+
   .hero-not-homepage .my-photo {
     margin: 10px auto;
   }
