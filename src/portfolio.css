@@ -329,7 +329,7 @@ p.image-captions {
   }
   hr {
     margin: 10px auto 0;
-    max-width: 250px;
+    max-width: 200px;
   }
   nav {
     padding: 0;
@@ -380,8 +380,8 @@ p.image-captions {
     margin: 5px auto 20px;
   }
   .portfolio-section-titles {
-    padding: 5px;
-    margin: 0px 5px;
+    padding: 10px 5px;
+    margin: 0 5px;
     font-size: 20px;
   }
   .footer {
