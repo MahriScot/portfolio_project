@@ -64,6 +64,11 @@ footer {
   font-family: var(--default-font-family);
 }
 
+hr {
+  margin: 25px auto 0;
+  max-width: 500px;
+}
+
 h1 {
   margin-top: 40px;
   font-size: 68px;
@@ -321,6 +326,10 @@ p.image-captions {
   }
   h4 {
     font-size: 20px;
+  }
+  hr {
+    margin: 10px auto 0;
+    max-width: 250px;
   }
   nav {
     padding: 0;
